@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "John Doe",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "username": "Jane Smith",
+      "password": "abcd"
+    }
+  ],
+  "todos": [
+    {
+      "id": "5665",
+      "title": "one more task",
+      "completed": false,
+      "userId": "2"
+    },
+    {
+      "id": "aa43",
+      "title": "this is nice",
+      "completed": false,
+      "userId": "2"
+    },
+    {
+      "id": "adbb",
+      "title": "i like it",
+      "completed": false,
+      "userId": "2"
+    },
+    {
+      "id": "1d6e",
+      "title": "it",
+      "completed": false,
+      "userId": "2"
+    },
+    {
+      "id": "c7e6",
+      "title": "fnff",
+      "completed": false,
+      "userId": "2"
+    },
+    {
+      "id": "ff77",
+      "title": "whats wrong",
+      "completed": false,
+      "userId": "2"
+    },
+    {
+      "id": "f72b",
+      "title": "i can see it",
+      "completed": false,
+      "userId": "1"
+    },
+    {
+      "id": "d422",
+      "title": "this",
+      "completed": false,
+      "userId": "1"
+    },
+    {
+      "id": "db54",
+      "title": "yess",
+      "completed": false,
+      "userId": "1"
+    },
+    {
+      "id": "e66f",
+      "title": "hey",
+      "completed": false,
+      "userId": "1"
+    },
+    {
+      "id": "2fad",
+      "title": "more",
+      "completed": false,
+      "userId": "1"
+    },
+    {
+      "id": "855a",
+      "title": "this is it",
+      "completed": false,
+      "userId": "1"
+    },
+    {
+      "id": "5306",
+      "title": "once more",
+      "completed": false,
+      "userId": "1"
+    },
+    {
+      "id": "b305",
+      "title": "like it",
+      "completed": false,
+      "userId": "1"
+    },
+    {
+      "id": "6f5b",
+      "title": "like it better",
+      "completed": false,
+      "userId": "1"
+    }
+  ]
+}

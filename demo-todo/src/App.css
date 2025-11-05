@@ -1,0 +1,145 @@
+.container {
+  max-width: 720px;
+  margin: 40px auto;
+  font-family: system-ui, sans-serif;
+  padding: 0 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Forms */
+.form {
+  display: grid;
+  gap: 8px;
+  max-width: 360px;
+  margin-bottom: 24px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+input, textarea, button {
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Status & error */
+.status {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.error {
+  color: crimson;
+  margin: 0;
+}
+
+.hint {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.pagination button {
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 4px;
+}
+
+.pagination button:hover:not(:disabled) {
+  background: #f0f0f0;
+}
+
+.pagination button:disabled {
+  background: #f9f9f9;
+  color: #ccc;
+}
+
+/* Todo list */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.todo-label input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+/* Action buttons */
+.edit-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+
+.edit-btn:hover {
+  background: #0056b3;
+}
+
+.delete-btn {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}
